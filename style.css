@@ -1,0 +1,55 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(52, 94, 103);
+}
+
+button{
+    padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #1f0d1b;
+      background-color: #6d2a8e;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+}
+button:hover {background-color: #e1e2e6}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    padding: 8px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+}   
+.text{
+    color: rgb(6, 6, 6);
+    font-size: 30px;
+    font-family: cursive;
+}
+.sym{
+    background-color: azure;
+}
+.box{
+    border: 2px solid #ccc; /* Define your border properties */
+    box-shadow: 12 12 10px rgba(24, 107, 55, 0.1);
+    border-radius: 10px;
+    width: 25%;
+    background-color: rgb(51, 77, 86);
+    margin-left: 34%;
+    padding: 40px 0px;
+    position: fixed;
+}
+.m{
+   background-color: rgb(215, 240, 25);
+}
